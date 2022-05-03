@@ -3,17 +3,17 @@
 2. Copy Downloaded zip file monitoring-lab22.zip to "Documents" folder.
 3. Unzip Downloaded file. It may take 5 min to uncompress files.
 ** **
-6. Start Telegraf
+4. Start Telegraf
     * Open Powershell and run below commands
     ``` 
         cd Documents\monitoring-lab22\telegraf
-        \telegraf --config telegraf.conf 
+        .\telegraf --config telegraf.conf 
     ```
     * Access URL : http://localhost:9273/metrics
 
 ** **   
 
-7. Start Prometheus
+5. Start Prometheus
     * Open new Powershell and run below commands
     ```
         cd Documents\monitoring-lab22\prometheus
@@ -23,7 +23,7 @@
 
 ** **
 
-8. Start Grafana
+6. Start Grafana
     * Open new Powershell and run below commands
     ```
         cd Documents\monitoring-lab22\grafana
